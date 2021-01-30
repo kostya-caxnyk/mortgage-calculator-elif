@@ -1,0 +1,26 @@
+.wrapper {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1000px;
+    margin: 200px auto 0
+}
+
+.inner {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.result {
+    width: 100%;
+    padding: 0 50px ;
+}
+
+.resultLabel {
+    font-size: 30px;
+    color: red;
+    font-weight: 700;
+}
